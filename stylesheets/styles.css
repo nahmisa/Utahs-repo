@@ -12,7 +12,7 @@ header {
 
 a {
   color: red;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem;
   float: right;
 }
 
@@ -24,21 +24,19 @@ h1 {
 
 header > p {
   color: grey;
-  margin: 0rem 2rem;
+  margin: 0rem 2rem 2rem 2rem;
 }
 
 nav ul {
-  list-style: none;
+  /*list-style: none;*/
   background-color: grey;
-  margin: 0rem;
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   width: 100%;
-  float: left;
 }
 
 nav li {
-  float: inherit;
+  display: inline;
 }
 
 nav a {
@@ -68,6 +66,7 @@ aside section {
 
 section p {
   float: left;
+  width: 70%
   display: inline;
 }
 
@@ -85,6 +84,7 @@ footer {
 }
 
 footer address {
+  font-style: normal;
   text-align: left;
 }
 
