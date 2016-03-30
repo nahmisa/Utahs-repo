@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font: 16px Arial, Sans-serif;
+}
+
+header {
+  background-color: black;
+}
+
+a {
+  color: red;
+  margin: 1rem 1rem 1rem 1rem;
+  float: right;
+}
+
+h1 {
+  color: white;
+  margin: 2rem 0rem 0rem 2rem;
+  clear: both;
+}
+
+header > p {
+  color: grey;
+  margin: 0rem 2rem;
+}
+
+nav ul {
+  list-style: none;
+  background-color: grey;
+  margin: 0rem;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+
+nav li {
+  float: inherit;
+}
+
+nav a {
+  color: purple;
+  float: none;
+}
+
+div {
+  width: 60%;
+  float: left;
+}
+
+aside {
+  border: solid 1px;
+  width: 35%;
+  margin: 1rem;
+  float: right;
+
+}
+
+aside section {
+  margin: 1rem;
+  text-align: center;
+  float: none;
+  clear: both;
+}
+
+section p {
+  float: left;
+  display: inline;
+}
+
+section a {
+  float: right;
+  display: inline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer address {
+  text-align: left;
+}
+
+footer a {
+  margin: 0em;
+  float: none;
+}
